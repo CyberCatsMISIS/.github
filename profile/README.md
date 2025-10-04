@@ -78,6 +78,7 @@ API должно предоставлять базовые CRUD-операции
 5. `DELETE /marks/{mark_id}` — удалить метку по ID  
 6. `DELETE /marks/{mark_id}` — удалить метку по ID  
 
+```json
 {
   "example_GET_/marks_response": [
     {
@@ -149,6 +150,7 @@ API должно предоставлять базовые CRUD-операции
 
   "example_DELETE_/marks_{mark_id}_response": 200
 }
+```
 
 ## Схема данных
 
